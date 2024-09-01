@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.sidebar{
+    margin: 1rem;
+    width: 300px;
+    height: 83vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.sidenav{
+    background-color: #111111;
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin-bottom: 10px;
+}
+
+.logo a{
+    font-size: 20px;
+    color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+}
+.sidenav ul{
+    list-style-type: none;
+}
+.sidenav ul li{
+    padding: 10px 20px;
+}
+.sidenav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+}
+.sidenav ul li a i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.sidenav-2{
+    background-color: #111111;
+    border-radius: 10px;
+    padding: 30px 20px;
+    color: aliceblue;
+    height: 68%;
+}
+.sidenav-2 ul{
+    list-style-type: none;
+}
+.sidenav-2 ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.library::after{
+    content: '+';
+    float: right;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 50%;
+    font-size: 15px;
+}
+.create-playlist{
+    background-color: #222121;
+    padding: 30px 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.sidebar-scroll{
+    height: 150px;
+    overflow-y: auto;
+   margin-top: 20px;
+}
+.sidebar-scroll::-webkit-scrollbar{
+    background: transparent;
+    width: 18px;
+}
+.create-playlist h4{
+    color: white;
+    font-size: 15px;
+}
+.create-playlist p{
+    font-size: 11px;
+    margin: 12px 0;
+}
+.create-playlist button{
+   padding: 8px 15px;
+   border: 0;
+   border-radius: 20px;
+   font-family: 600;
+}
+.privacy ul li a{
+    text-decoration: none;
+    color: #575656;
+    font-size: 12px;
+    font-family: 200;
+    margin: 0 10px;
+    margin-top: 10px;
+}
+.privacy ul li a:hover{
+    text-decoration: none;
+    color: #dbdada;
+}
+.sidenav ul li a:hover{
+    color: #dbdada;
+}
+.privacy ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.privacy ul li{
+    padding-bottom: 0 10px;
+    padding-bottom: 8px;
+}
+.btn button{
+    padding: 10px 30px;
+    background: transparent;
+    border: 0;
+    border: 1px solid #818080;
+    color: aliceblue;
+    border-radius: 20px;
+}
+.btn button:hover{
+    padding: 11px 32px;
+    border: 1px solid white;
+}
+
+/* main */
+
+.sec2{
+    height: 100vh;
+}
+.main{
+    margin-left: 330px;
+    background-color: #181818;
+    height: 83vh;
+}
+.main .topnav{
+    padding: 20px 30px;
+    background: #030303;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.arrow button{
+    background-color:black;
+    border: 1px solid black;
+    color: #4d4d4d;
+    font-size: 20px;
+}
+.arrow button:hover{
+    color: aliceblue;
+    font-size: 20px;
+}
+.log .signup{
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid black;
+    font-size: 20px;
+}
+.log .signup:hover{
+    color: white;
+    font-weight: bolder;
+}
+.log .login{
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    width: 100px;
+    font-size: 20px;
+}
+.log .login:hover{
+    font-size: 25px;
+    font-weight: bolder;
+    border: 1px solid white;
+}
+.topnav .log{
+    position: relative;
+    right: 3rem;
+}
+.topnav .log .login{
+    position: relative;
+    left: 1rem;
+}
+
+/* main2 */
+.div{
+    height: 70vh;
+    overflow-y: auto;
+}
+.div::-webkit-scrollbar{
+    background: transparent;
+}
+.main2{
+    padding: 20px 40px;
+}
+.main2 h2{
+    color:aliceblue;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.main2 .card{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+.main2 .card .item{
+    min-width: 140px;
+    background-color: #272626;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 15px;
+}
+.main2 .card .item img:hover{
+   width: 110%;
+}
+.item h2{
+    margin-left: 50px;
+}
+.main2 .card .item img{
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* main3 */
+.main3{
+    padding: 20px 40px;
+}
+.main3 h2{
+    color:aliceblue;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.div p{
+    color: #959292;
+}
+.main3 .card1{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+.main3 .card1 .item1{
+    min-width: 140px;
+    background-color: #272626;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 15px;
+}
+.main3 .card1 .item1 img:hover{
+   width: 110%;
+}
+.item h2{
+    margin-left: 50px;
+}
+.main3 .card1 .item1 img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+  /* main 4 */
+.main4{
+    padding: 20px 40px;
+    padding-left: 10px;
+}
+.main4 h2{
+    color:aliceblue;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.main4 .card2{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+.main4 .card2 .item2{
+    min-width: 140px;
+    background-color: #272626;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 15px;
+}
+.main4 .card2 .item2 img:hover{
+   width: 110%;
+}
+.item2 h2{
+    margin-left: 50px;
+}
+.main4 .card2 .item2 img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* main5 */
+.main5{
+    padding: 20px 40px;
+    padding-left: 10px;
+}
+.main5 h2{
+    color:aliceblue;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.main5 .card3{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+.main5 .card3 .item3{
+    min-width: 140px;
+    background-color: #272626;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 15px;
+}
+.main5 .card3 .item3 img:hover{
+   width: 110%;
+}
+.item3 h2{
+    margin-left: 50px;
+}
+.main5 .card3 .item3 img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* foot */
+footer{
+    color: white;
+}
+footer .foot{
+    box-sizing: border-box;
+    border: 1px solid rgb(8, 3, 3);
+    padding: 2rem;
+    position: relative;
+    bottom: 6rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #111111;
+}
+.btn2 button{
+    background-color: #030303;
+    border: 1px solid #111111;
+    color: aliceblue;
+    font-size: 15px;
+    border-radius: 50px;
+    width: 120%;
+    position: relative;
+    right: 2rem;
+}
+.btn2 button:hover{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+}
